@@ -4,13 +4,13 @@ An English Year 4 Science learning website about photosynthesis, prepared as a d
 
 ## Run locally
 
-Serve the `dist` folder over HTTP, for example:
+On Windows, double-click `run.bat`. It opens the SCES site at `http://localhost:4175`, so it can run alongside the EDUP site on port 4174. Alternatively, serve the `dist` folder over HTTP:
 
 ```powershell
-python -m http.server 4174 --directory dist
+python -m http.server 4175 --directory dist
 ```
 
-Open `http://localhost:4174`. The JavaScript modules need HTTP; opening `index.html` directly as `file://` is unsupported. `dist/offline.html` is a printable alternative.
+Open `http://localhost:4175`. The JavaScript modules need HTTP; opening `index.html` directly as `file://` is unsupported. `dist/offline.html` is a printable alternative.
 
 ## Teaching scope
 
